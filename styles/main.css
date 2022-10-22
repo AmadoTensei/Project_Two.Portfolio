@@ -1,0 +1,274 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	margin: 0;
+	padding: 0px;
+	font-weight: normal;
+	font-family: 'Inter', sans-serif;
+}
+
+li,
+ul {
+	display: block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+
+}
+header a{
+	color: black;
+}
+
+.header-container{
+	margin: 0 auto;
+	width: 1903px;
+}
+.main-container{
+	margin: 0 auto;
+	width: 1903px;
+}
+.header-navigation-logo{
+	margin-left: 50px;
+}
+.navigation{
+	display: flex;
+	align-items: center;
+	height: 94px;
+	margin-right: 30px;
+	margin-left: 150px;
+}
+
+.menu{
+	display: flex;
+	margin-left: auto;
+	margin-right: 190px;
+}
+.menu li a{
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+}
+.menu li {
+	margin-right: 24px;
+}
+.title-about{
+	display: flex;
+	height: 399px;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.title-description{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 4px;
+	margin-right: 300px;
+
+}
+.title-description-one {
+	font-size: 44px;
+	line-height: 53px;
+	font-weight: 700;
+}
+.title-description-two{
+	font-size: 44px;
+	line-height: 53px;
+	font-weight: 700;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: -50px;
+}
+.main-description{
+	width: 548px;
+	height: 81px;
+	margin-top: -10px;
+}
+.avatar{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	position: relative;
+	margin-right: -40px;
+}
+.avatar-main{
+	z-index: 1;
+	padding-left: 45px;
+	grid-column: 1 / span 8;
+	grid-row: 1;
+}
+.avatar-elipse{
+	grid-column: 2 / -2;
+	grid-row: 1 / -1;
+	padding-top: 10px;
+}
+.works-link{
+	display: block;
+	width: 193px;
+	height: 46px;
+	text-align: center;
+	background: #FF6464;
+	text-decoration: none;
+	color: white;
+	line-height: 46px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+.recent-posts{
+	height: 422px;
+	background-color: #EDF7FA;
+	display: flex;
+	flex-direction: column;
+}
+.recent-header{
+	display: flex;
+	justify-content: center;
+	width: 1150px;
+	height: 80px;
+	margin-left: 369px;
+}
+.recent-header a {
+	color: #00A8CC;
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+	margin-left: auto;
+	padding: 0px 2px;
+	line-height: 140px;
+}
+.recent-header p{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 80px;
+}
+.post-title{
+	padding-top: 24px;
+	margin-left: 370px;
+	display: flex;
+	margin-top: 24px;
+
+}
+.post{
+	box-sizing: border-box;
+	width: 538px;
+	height: 210px;
+	background-color: white;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 24px 0px;
+	border-radius: 10px;
+	padding-left: 30px;
+	margin-right: 70px;
+
+}
+.text-title{
+	font-weight: 600;
+	font-size: 28px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+.date-title{
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: 0px;
+	color: #636B78;
+}
+.description-text{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+}
+.featured-work{
+	margin-top: 0;
+	background-color: white;
+	height: 650px;
+}
+.featured-header{
+	display: flex;
+	justify-content: center;
+	width: 1150px;
+	height: 80px;
+	margin-left: 369px;
+}
+.featured-header a{
+	color: #00A8CC;
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+	margin-left: auto;
+	padding: 0px 2px;
+	line-height: 140px;
+}
+.featured-header{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 80px;
+	margin-bottom: 24px;
+}
+.featured-post-work{
+	width: 1150px;
+	height: 251px;
+	margin-right: 365px;
+	margin-left: 365px;
+	display: flex;
+}
+.work p{
+	margin-left: 50px;
+}
+.img-work{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.date-work{
+	display: flex;
+	width: 73px;
+	height: 32px;
+	background-color:#2A326F;
+	color: white;
+	border-radius: 8px;
+	justify-content: center;
+	line-height: 32px;
+	margin-top: 0;
+}
+.text-work{
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+	margin-bottom: 0;
+}
+.marked-work {
+	width: 81px;
+	height: 24px;
+	padding-left: 100px;
+	margin-top: -40px;
+}
+.description-work{
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 27px;
+}
+hr{
+	margin-top: 10px;
+	width: 1200px;
+}
+.footer-container {
+	margin: 0 auto;
+	width: 1903px;
+}
+.footer-block{
+	margin-top: 50px;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+}
